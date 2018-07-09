@@ -5,12 +5,12 @@
 计算机组成原理实验之一
 可以在浙江大学 Sword 开发平台上下载运行。编译需要用到 Xilinx ISE Design，建立新的工程，并将代码一一导入，建立层次结构。并生成名为 ROM_D 和 RAM_B 的 IP 核。建立工程和建立 IP 核参数如下图：
 
-![Design Property](./resource/0-Design-Properties.png)
+![Design Property](./master/resource/0-Design-Properties.png)
 
-![Rom IP](./resource/ROMIP.jpg)
+![Rom IP](./master/resource/ROMIP.jpg)
 初始化文件为 D_mem.coe
 
-![Ram IP](./resource/RAMIP.jpg)
+![Ram IP](./master/resource/RAMIP.jpg)
 初始化文件为SOC_SCPU_INT.coe
 
 本处理器支持 MIPS 指令中的 45 条指令，为流水线处理器,支持数据相关和控制相关，支持处理器外部中断、系统调用、溢出异常和未实现指令异常。但协处理器与寄存器组之间的数据相关需要在指令中加入 nop 以防止异常。
