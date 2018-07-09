@@ -1,0 +1,6 @@
+`define OPFLD [31:26]
+`define RSFLD [25:21]
+`define RTFLD [20:16]
+`define RDFLD [15:11]
+`define FTFLD [ 5: 0]
+`define SHAMT [10: 6]
